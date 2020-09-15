@@ -11,7 +11,7 @@ f.write('ID,Age,Gender,Patient_type,ICU,Ventilator,Death,Asthma,COPD,Heart,Diabe
 
 print('Writing...')
 
-for i in range(1, n):
+for i in range(1, n-1):
 	s = a[i].split(',')
 
 	temp = ''
@@ -39,7 +39,7 @@ for i in range(1, n):
 	if s[1] == '1':
 		f.write('1,')
 	else:
-		f.write('-1,')
+		f.write('0,')
 
 	if s[2] == '2':
 		f.write('1,')
