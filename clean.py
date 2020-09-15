@@ -7,7 +7,7 @@ n = len(a)
 
 id = 'P000000'
 
-f.write('ID,Age,Gender,Patient_type,ICU,Ventilator,Death,Asthma,COPD,Heart,Diabetes,Hypertension,Kidney,Obesity,Other_Disease,Pregnant,Smoker\n')
+f.write('ID,Age,Gender,Patient_type,ICU,Ventilator,Death,Asthma,COPD,Heart,Diabetes,Hypertension,Kidney,Obesity,Other_Disease,Pregnant,Smoker,Decision\n')
 
 print('Writing...')
 
